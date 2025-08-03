@@ -33,10 +33,13 @@ const Hero = () => {
           </p>
 
           {/* CTA Button */}
-          <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-extrabold py-5 px-14 text-2xl border-4 border-black transform hover:scale-105 transition-all duration-200 shadow-xl hover:shadow-2xl"
+          <a href="https://finquest-mission-page-final-i9sbj2b2t-hacksbliotzs-projects.vercel.app/">
+            <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-extrabold py-5 px-14 text-2xl border-4 border-black transform hover:scale-105 transition-all duration-200 shadow-xl hover:shadow-2xl"
           style={{ fontFamily: 'Montserrat, sans-serif' }}>
             Get Started
           </button>
+          </a>
+          
         </div>
       </div>
     </section>

@@ -30,7 +30,7 @@ const Header = () => {
             </nav>
           )}
           {/* CTA Button */}
-          <Link to={isHomePage ? "/income-selection" : "/"}>
+          <Link to={isHomePage ? "https://finquest-mission-page-final-i9sbj2b2t-hacksbliotzs-projects.vercel.app/" : "/"}>
             <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold py-2 px-6 border-4 border-black transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl" style={{ fontFamily: 'Montserrat, sans-serif' }}>
               {isHomePage ? "Start Playing" : "Back to Home"}
             </button>

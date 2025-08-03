@@ -18,7 +18,6 @@ function App() {
             <Hero />
             <IntroSection />
             <FeaturesSection />
-            <GamePreview />
           </div>
         } />
         <Route path="/income-selection" element={<IncomeSelection />} />
